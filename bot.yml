@@ -11,8 +11,8 @@ config:
   - name: SD_AUTH_TOKEN
     friendly_name: Token
     info: The Server Density Auth Token
-    type: 4a500c131784ab063fff2f0542884bcb
+    type: secret
   - name: SD_ACCOUNT_NAME
     friendly_name: Account Name
     info: The account name you at Server Density ie myaccount in myaccount.serverdensity.io
-    type: jeppesen
+    type: text

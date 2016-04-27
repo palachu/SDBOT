@@ -8,13 +8,13 @@ avatar: assets/sdlogo.png
 background: assets/dashboard.jpg
 screenshot: assets/collaboration.gif
 config:
-  - name: SD_AUTH_TOKEN
-    friendly_name: Token
-    info: The Server Density Auth Token
-    default: 4a500c131784ab063fff2f0542884bcb
-    type: secret
-  - name: SD_ACCOUNT_NAME
-    friendly_name: Account Name
-    default: jeppesen
-    info: The account name you at Server Density ie myaccount in myaccount.serverdensity.io
-    type: text
+- name: SD_AUTH_TOKEN
+  friendly_name: Token
+  info: The Server Density Auth Token
+  default: 4a500c131784ab063fff2f0542884bcb
+  type: secret
+- name: SD_ACCOUNT_NAME
+  friendly_name: Account Name
+  default: jeppesen
+  info: The account name you at Server Density ie myaccount in myaccount.serverdensity.io
+  type: text
